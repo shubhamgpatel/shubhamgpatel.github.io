@@ -1,0 +1,58 @@
+{
+    "projects":[
+       {
+          "project1":"Shree Sainath Marble Industries",
+          "project2":"iTutor",
+          "project3":"Startup Tracker"
+       }
+    ],
+    "skills":[ 
+       {
+          "id":1,
+          "skill":"HTML"
+       },
+       {
+          "id":2,
+          "skill":"CSS"
+       },
+       {
+          "id":3,
+          "skill":"Javascript"
+       },
+       {
+          "id":4,
+          "skill":"Bootstrap"
+       },
+       {
+          "id":5,
+          "skill":"PHP"
+       },
+       {
+          "id":6,
+          "skill":"Wordpress"
+       },
+       {
+          "id":7,
+          "skill":"Angular"
+       }
+    ]
+}
+-------------------------------------------------
+// alert();
+var app = new Vue({
+    el: '#app',
+    data: {
+            skills: [],
+    },
+    mounted:function(){
+        axios.get('./assets/data.json')
+        .then(response => {
+            this.skills = response.data.skills;
+            console.log(skills);
+        })
+        .catch(error => {
+            console.log(error);
+        })
+    }
+  })
+  v-bind:data-percentage="value.percent+'%'"

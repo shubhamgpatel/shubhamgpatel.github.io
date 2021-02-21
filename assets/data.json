@@ -1,0 +1,61 @@
+{
+    "projects":[
+         {
+          "project":"iTutor", "img": "assets/img/project1.png", "desc" : "This online tutor system will assist to locate tuition instructors from nearby locations. Teachers can also get a student just via logging onto the website and setting up the profile. In this system,there are three entities namely, Admin, Student, and Tutor. Admin can log in, control students, tutors & materials they share between one another.", "tagline": "PHP Website with Admin interface","url":"http://priyankakhadilkar.com/onlinetutor/"},
+          {
+          "project":"Shree Sainath Marble Industries", "img": "assets/img/project2.png", "desc" : "Shree Sainath Marble Industries is one of the major Manufacturers and Exporters of quality Natural Stones.The store maintains different registers for various activities such as storing and searching data, which is tedious and time consuming task. At Shree Sainath Marble Industries, we continue our mission to meet the changing aesthetic needs of the community and deliver maximum value by consistently exceeding customer expectations and rising above our own benchmarks each time, every time.", "tagline":"PHP Ecommerce website","url":"#"},
+          {
+          "project":"Startup Tracker", "img": "assets/img/project3.png", "desc" : "Startup tracker is a one page static website which is developed using Bootstrap, jQuery and CSS. It uses font awesome for icons and custom css for animations.", "tagline":"A Static Website","url":"https://startup-tracker.000webhostapp.com/"},
+          {
+          "project":"Iyenkar Yoga","img": "assets/img/project4.png", "desc" : "This website is built using w3Layout template which has multiple pages such as about us, contact, courses, registration and Page not found. This website uses jquery fancybox for animations and carousel for slider.", "tagline":"A Static yoga website","url":"https://iyenkaryoga.000webhostapp.com/"},
+          {
+          "project":"iQlub","img": "assets/img/project5.png", "desc" : "This website is built using HTML, CSS, JavaScript and jQuery. The main aim for this website is to implement the Photoshop raw file into a webpage. In this website, I learnt how to be precise enough for pixels in a website.", "tagline":"PSD to HTML with JavaScript functionalities","url":"https://iqlub.000webhostapp.com/"
+        },
+        {
+          "project":"Traffic Signal","img": "assets/img/project6.png", "desc" : "This design is made using HTML CSS3 and jQuery. The main aim of this design is to explore the usage of animations in CSS3.","tagline":"A HTML CSS3 Animation", "url":"https://design-dig.000webhostapp.com/"
+        }
+    ],
+    
+    "education":[
+        {   "year" : "Sept 2020 - Apr 2021", "course" : "Post Graduate Degree - Mobile Application Development" , "school" : "George Brown College" },
+        {   "year" : "Sept 2019 - Aug 2020", "course" : "Post Graduate Degree - Web Development" , "school" : "Humber College"},
+        {   "year" : "Jul 2014 - Mar 2017", "course" : "Bachelor of Science in Information Technology" , "school" : "University of Mumbai" }
+    ],
+    "experience" : [
+        {   "year" : "Jul 2020 - Aug 2021", "role" : "Web Developer" , "company" : "Truxco Inc.", "desc" : "Creating and managing ecommerce websites build on Woocommerce and Shopify.","img": "assets/img/experience/PwcExperience.png" },
+        {   "year" : "Jul 2017 - Aug 2019", "role" : "Specialist - Analyst" , "company" : "PriceWaterhouse Coopers Pvt Ltd.", "desc" : "Audits for following companies  Microsoft, Adobe, Autodesk, Siemens,Dassault Systemes Pvt Ltd","img": "assets/img/experience/PwcExperience.png" },
+        {   "year" : "Apr 2016 - May 2016", "role" : "Web Developer" , "company" : "Peak Performance", "desc": "Designing web pages using HTML, CSS3, javaScript, jQuery, Bootstrap and Ajax", "img": "assets/img/experience/peak-performance-1.png" },
+        {   "year" : "Nov 2015 - Jul 2016", "role" : "Web Developer" , "company" : "OrgGen", "desc": "Worked on different websites such as Kitaabmandi, Iyenkar yoga and WEQ. Also making Web pages using HTML, CSS3, JavaScript, PHP, Bootstrap", "img": "assets/img/experience/orgGen-1.png"}
+    ],  
+    "certifications":[
+        {   "year" : "May 2020", "course" : "Angular Essential Training" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_AngularEssentialTraining.jpg" },
+        {   "year" : "May 2020", "course" : "ECMAScript 6" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_LearningECMAScript6.jpg" },
+        {   "year" : "May 2020", "course" : "Vue.js Essential Training" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_Vue.jsEssentialTraining-1.jpg" },
+        {   "year" : "July 2014", "course" : "Web Designing" , "src":"Unicorn Computer Education", "img": "assets/img/certificate/unicorn.jpg" }
+    ],
+    "testimonial":[
+        {"name": "","role":"","desc":""},
+        {"name": "","role":"","desc":""},
+        {"name": "","role":"","desc":""}
+    ],
+    "skills":[ {"name" : "HTML","percent":"75","url":"./assets/img/language/html-5.svg"},
+        {"name" : "CSS3", "percent":"60","url":"./assets/img/language/css.svg"},
+        {"name" : "JavaScript", "percent":"60","url":"./assets/img/language/javascript.svg"},
+        {"name" : "Bootstrap", "percent":"60","url":"./assets/img/language/bootstrap.png"},
+        {"name" : "jQuery", "percent":"70" ,"url":"./assets/img/language/jquery.png"} ,
+        {"name" : "PHP", "percent":"60" ,"url":"./assets/img/language/php.svg"} ,
+        {"name" : "TypeScript", "percent":"65" ,"url":"./assets/img/language/typescript.svg"} ,
+        {"name" : "Github", "percent":"65" ,"url":"./assets/img/language/github.svg"} ,
+        {"name" : "Asp.Net", "percent":"65" ,"url":"./assets/img/language/aspnet.png"} ,
+        {"name" : "Node.js", "percent":"65" ,"url":"./assets/img/language/nodejs.svg"} ,
+        {"name" : "MySQL", "percent":"65" ,"url":"./assets/img/language/mysql.svg"} ,
+        {"name" : "XML", "percent":"65" ,"url":"./assets/img/language/xml.png"} ,
+        {"name" : "Wordpress", "percent":"65" ,"url":"./assets/img/language/wordpress.svg"},
+        {"name" : "Vue.js", "percent":"65" ,"url":"./assets/img/language/vue.png"},
+        {"name" : "Angular", "percent":"30" ,"url":"./assets/img/language/angular.png"} 
+    ],
+    "activity": {"year" : "Jul 2014", "course" : "Department of Lifelong Activity" , "school" : "Usha Pravin Gandhi College of Management", "img": "assets/img" },
+    "contact" : "+1 647 562 3939",
+    "email"    : "shubhampatel.contact@gmail.com",
+    "location":  "Etobicoke, Ontario"
+}
