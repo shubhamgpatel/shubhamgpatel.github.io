@@ -1,5 +1,7 @@
 {
     "projects":[
+        {
+            "project":"The Artsy LensS Films", "img": "assets/img/theartsylenss.png", "desc" : "The Artsy LensS Films was a client project which was created using HTML, CSS, and JavaScript. The main focus of this project was to fulfill client requirements as per their demands and I used PHP code just to remove duplicate data. This website is responsive and consists of parallax effects.", "tagline": "A Photographer Website Design","url":"https://theartsylenss.com/"},
          {
           "project":"iTutor", "img": "assets/img/project1.png", "desc" : "This online tutor system will assist to locate tuition instructors from nearby locations. Teachers can also get a student just via logging onto the website and setting up the profile. In this system,there are three entities namely, Admin, Student, and Tutor. Admin can log in, control students, tutors & materials they share between one another.", "tagline": "PHP Website with Admin interface","url":"http://priyankakhadilkar.com/onlinetutor/"},
           {
