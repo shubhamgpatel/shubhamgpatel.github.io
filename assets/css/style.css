@@ -1876,3 +1876,8 @@ select {
     margin: 0 auto;
     display: block;
 }
+@media screen and (max-width:420px){
+    .spacing-50{
+        padding:25px 0 25px 0;
+    }
+}

@@ -32,6 +32,9 @@
         {   "year" : "Nov 2015 - Jul 2016", "role" : "Web Developer" , "company" : "OrgGen", "desc": "Worked on different websites such as Kitaabmandi, Iyenkar yoga and WEQ. Also making Web pages using HTML, CSS3, JavaScript, PHP, Bootstrap", "img": "assets/img/experience/orgGen-1.png"}
     ],  
     "certifications":[
+        {   "year" : "June 2021", "course" : "React: Using TypeScript" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_ReactUsingTypeScript.jpg" },
+        {   "year" : "Mar 2021", "course" : "React.js Essential Training" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_ReactEssentialTraining.jpg" },
+        {   "year" : "Mar 2021", "course" : "Learning React.js" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_LearningReactJs.jpg" },
         {   "year" : "May 2020", "course" : "Angular Essential Training" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_AngularEssentialTraining.jpg" },
         {   "year" : "May 2020", "course" : "ECMAScript 6" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_LearningECMAScript6.jpg" },
         {   "year" : "May 2020", "course" : "Vue.js Essential Training" , "src":"Linkedin Learning", "img": "assets/img/certificate/CertificateOfCompletion_Vue.jsEssentialTraining-1.jpg" },
