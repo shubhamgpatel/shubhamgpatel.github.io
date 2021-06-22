@@ -64,9 +64,9 @@
 									<nav class="mainmenu onepage-nev floatright">
 										<ul class="clearfix">
 											<li><a href="#home">Home</a></li>
+											<li><a href="#service">Services</a></li>
 											<li><a href="#about">About</a></li>
 											<li><a href="#portfolio">PORTFOLIO</a></li>
-											<li><a href="#service">Services</a></li>
 											<li><a href="#contact">Contact</a></li>
 										</ul>
 									</nav>
@@ -85,9 +85,9 @@
 					<nav class="mainmenu-box onepage-nev">
 						<ul class="clearfix">
 							<li><a href="#home">Home</a></li>
+							<li><a href="#service">Services</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#portfolio">PORTFOLIO</a></li>
-							<li><a href="#service">Services</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -101,7 +101,7 @@
 								<h5 class="mb-11">Hello, my name is</h5>
 								<h1 class="mb-30">Shubham Patel</h1>
 								<p class="font-16 line-height-28">
-									I am an experienced web developer having experience of more than 2 years. I have recently completed my graduation in Web Development from Humber College, an aspiring individual looking to work in the industry as a web developer. I believe that passion can take a person to heights he can never imagine, and my passion lies in web development.
+									I am an experienced Web Developer having experience of more than 4 years. I have recently completed my graduation in Web Development from Humber College, an aspiring individual looking to work in the industry as a Web Developer. I believe that passion can take a person to heights he can never imagine, and my passion lies in web development.
 								</p>
 								<div class="slider-button smooth-scroll mt-40">
 									<a class="btn lg-btn" href="#portfolio">my work</a>
@@ -118,6 +118,49 @@
 			</div>
 		</header>
 		<!-- Header Section End -->
+		<!-- Service Section Start -->
+		<section class="service-area bg-color-1 section-padding" id="service">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-title text-center mb-60">
+							<h2 class="mb-20">My Services</h2>
+							<div class="horizontal-line">
+								<div class="top"></div>
+								<div class="bottom"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-4">
+						<div class="single-service pt-50 pb-60 plr-20">
+							<i class="zmdi zmdi-favorite-outline"></i>
+							<h5 class="montserrat weight-medium no-margin">WEB DESIGNING</h5>
+							<hr class="mtb-15" />
+							<p>A page is designed in a Photoshop Document (PSD) and then converted to code using different programming languages. </p>
+						</div>
+					</div>
+					<div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-4">
+						<div class="single-service pt-50 pb-60 plr-20">
+							<i class="zmdi zmdi-filter-center-focus"></i>
+							<h5 class="montserrat weight-medium no-margin">RESPONSIVE DESIGN</h5>
+							<hr class="mtb-15" />
+							<p>A website that should respond to the user’s behavior and environment based on screen size, platform and orientation. </p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="single-service pt-50 pb-60 plr-20">
+							<i class="zmdi zmdi-language-html5"></i>
+							<h5 class="montserrat weight-medium no-margin">WEB DEVELOMENT</h5>
+							<hr class="mtb-15" />
+							<p>A Developer responsible for building a product that meets both the client’s needs and those of the customer or end user.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Service Section End -->
 		<!-- About Section Start -->
 		<section class="about-area section-padding light-bg" id="about">
 			<div class="container">
@@ -133,19 +176,19 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-6">
+					<div class="col-xs-12 col-sm-6 col-md-5">
 						<div class="left mr-40">
 							<h3 class="font-22 capitalize">Howdy!</h3>
-							<p class="font-16 line-height-28">I am a full stack web developer seeking a full-time position, where I can utilize my skills and knowledge for continuous improvement. I have great experience in web development where I design web pages, fix them, developing strategies that drive products to success. I have also worked in Software Asset Management where I had done audits for companies such as Microsoft, Adobe, Autodesk, and Siemens.</p>
+							<p class="font-16 line-height-28">I am a Web Developer seeking a full-time position, where I can utilize my skills and knowledge for continuous improvement. I have great experience in Web Development where I design web pages, fix them, developed strategies that drive products to success. I have also worked in Software Asset Management as a Analyst where I had done audits for companies such as Microsoft, Adobe, Autodesk, and Siemens.</p>
 							<div class="about-button mt-30">
 								<a class="btn" href="/assets/Shubham-Resume.pdf" target="_blank" type="application/octet-stream" download="Shubham-Resume.pdf">Download my cv</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-push-1 col-md-5" id="skills">
-						<div class="right skill-progress" v-for="value in skills" >
-					
-							<div class="col-xs-6 col-sm-4 col-md-push-1 col-md-4 skills-icons">
+					<div class="col-xs-12 col-sm-6 col-md-7" id="skills">
+						<div class="" v-for="value in skills" >
+							<!-- CLASS=right skill-progress -->
+							<div class="col-xs-4 col-sm-3  col-md-3 skills-icons">
                                 <img v-bind:src="value.url" alt="Image" />
 									<span class="progress-title">{{ value.name }}</span><br>
                             </div>
@@ -340,49 +383,7 @@
 			</div>
 		</section>
 		<!-- Portfolio Section End -->
-		<!-- Service Section Start -->
-		<section class="service-area bg-color-1 section-padding" id="service">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="section-title text-center mb-60">
-							<h2 class="mb-20">My Services</h2>
-							<div class="horizontal-line">
-								<div class="top"></div>
-								<div class="bottom"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row text-center">
-					<div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-4">
-						<div class="single-service pt-50 pb-60 plr-20">
-							<i class="zmdi zmdi-favorite-outline"></i>
-							<h5 class="montserrat weight-medium no-margin">web design</h5>
-							<hr class="mtb-15" />
-							<p>A page is designed in a Photoshop Document (PSD) and then converted to code using different programming languages. </p>
-						</div>
-					</div>
-					<div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-4">
-						<div class="single-service pt-50 pb-60 plr-20">
-							<i class="zmdi zmdi-filter-center-focus"></i>
-							<h5 class="montserrat weight-medium no-margin">Responsive Design</h5>
-							<hr class="mtb-15" />
-							<p>A website that should respond to the user’s behavior and environment based on screen size, platform and orientation. </p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="single-service pt-50 pb-60 plr-20">
-							<i class="zmdi zmdi-language-html5"></i>
-							<h5 class="montserrat weight-medium no-margin">development</h5>
-							<hr class="mtb-15" />
-							<p>A Developer responsible for building a product that meets both the client’s needs and those of the customer or end user.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Service Section End -->
+		
 		<!-- Contact Section Start -->
 		<section class="contact-area light-bg section-padding" id="contact">
 			<div class="container">
@@ -455,8 +456,8 @@
 						</div>
 						<div class="right social-link floatright">
 							<ul class="clearfix">
-								<li><a href="https://www.facebook.com/shubham.patel.1612/" target="_blank">Facebook</a></li>
-								<li><a href="https://www.linkedin.com/in/shubham-patel-68a089174/" target="_blank">Linkedin</a></li>
+								<li><a href="https://github.com/shubhamgpatel" target="_blank">Github</a></li>
+								<li><a href="https://www.linkedin.com/in/shubhampatel96/" target="_blank">Linkedin</a></li>
 								<li><a href="mailto:shubhampatel.contact@gmail.com" target="_blank">Email</a></li>
 							</ul>
 						</div>
@@ -476,7 +477,7 @@
 		<!-- Waypoints JS -->
         <script src="assets/js/waypoints.min.js"></script>
 		<!-- Progressbar JS -->
-        <script src="assets/js/progressbar.js"></script>
+        <!-- <script src="assets/js/progressbar.js"></script> -->
 		<!-- Isotope -->
         <script src="assets/js/isotope.pkgd.js"></script>
 		<!-- Isotope -->
@@ -495,3 +496,4 @@
 		<script src="assets/js/script_vue.js"></script>
     </body>
 </html>
+<!-- {"name" : "Asp.Net", "percent":"65" ,"url":"./assets/img/language/aspnet.png"}  -->
