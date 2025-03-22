@@ -26,7 +26,7 @@
         {   "year" : "Jul 2014 - Mar 2017", "course" : "Bachelor of Science in Information Technology" , "school" : "University of Mumbai" }
     ],
     "experience" : [
-        {   "year" : "Jan 2022 - Feb 2025", "role" : "Web Designer & Developer" , "company" : "Synchroworks Consulting", "desc" : "Developed multiple functionalities using Axios, Laravel, and VueJS, creating custom front-end components andworking with Blade files to enhance website performance.","img": "assets/img/experience/PwcExperience.png" },
+        {   "year" : "Jan 2022 - Feb 2025", "role" : "Web Designer & Developer" , "company" : "Synchroworks <br/>Consulting", "desc" : "Developed multiple functionalities using Axios, Laravel, and VueJS, creating custom front-end components andworking with Blade files to enhance website performance.","img": "assets/img/experience/PwcExperience.png" },
         {   "year" : "Jul 2020 - Dec 2021", "role" : "Web Developer" , "company" : "Legend Tire Canada", "desc" : "Creating and managing ecommerce websites build on Woocommerce and Shopify.","img": "assets/img/experience/PwcExperience.png" },
         {   "year" : "Jul 2017 - Aug 2019", "role" : "Specialist - Analyst" , "company" : "PriceWaterhouse Coopers Pvt Ltd.", "desc" : "Audits for following companies  Microsoft, Adobe, Autodesk, Siemens,Dassault Systemes Pvt Ltd","img": "assets/img/experience/PwcExperience.png" },
         {   "year" : "Apr 2016 - May 2016", "role" : "Web Designer & Developer" , "company" : "Peak Performance", "desc": "Designing web pages using HTML, CSS3, javaScript, jQuery, Bootstrap and Ajax", "img": "assets/img/experience/peak-performance-1.png" },
