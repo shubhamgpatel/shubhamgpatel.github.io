@@ -116,7 +116,8 @@
 }
 
 .single-experi .left-text {
-	width: 122px;
+	width: 150px;
+	/* width: 122px; */
 }
 .single-experi .right-text h3,
 .single-experi .right-text p {
