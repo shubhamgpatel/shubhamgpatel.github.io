@@ -1009,6 +1009,7 @@ select {
     display: none;
     -webkit-animation: 300ms ease-in-out 2s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 2s normal none 1 running fadeInDown;
+    color:#fff;
     margin:0 0 0 0;
 }
 /* 
@@ -1155,7 +1156,8 @@ select {
   display: inline-block;
 }
 .portfolio-menu ul li {
-	color: #777777;
+	color: #fff;
+	/* color: #777777; OLD */
 	cursor: pointer;
 	float: left;
 	font-family: "Montserrat",sans-serif;
@@ -1378,7 +1380,7 @@ select {
 /* contact area
 ----------------*/
 .section-title h2 {
-  color: #494949;
+  /* color: #494949; */
 }
 .contact-area .section-title p {
     color: #777777;
