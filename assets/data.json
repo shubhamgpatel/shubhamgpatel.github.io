@@ -1,4 +1,26 @@
 {
+    "services": [
+        {
+            "icon": "zmdi zmdi-language-html5",
+            "heading": "WEB DEVELOMENT",
+            "content": "A Developer responsible for building a product that meets both the client’s needs and those of the customer or end user."
+        },
+        {
+            "icon": "zmdi-smartphone-iphone",
+            "heading": "MOBILE APP DEVELOPMENT",
+            "content": "Building complex mobile applications in platforms such as Android and IOS and working on CRUD operations."
+        },
+        {
+            "icon": "zmdi zmdi-filter-center-focus",
+            "heading": "RESPONSIVE DESIGN",
+            "content": "A website that should respond to the user’s behavior and environment based on screen size, platform and orientation"
+        },
+        {
+            "icon": "zmdi zmdi-favorite-outline",
+            "heading": "WEB DESIGNING",
+            "content": "Converting a Photoshop Document(PSD) or any document into webpage using different programming languages."
+        }
+    ],
     "projects": [
         {
             "project": "The Artsy LensS Films",
