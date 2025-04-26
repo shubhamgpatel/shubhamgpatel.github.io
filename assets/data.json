@@ -1,24 +1,24 @@
 {
     "services": [
         {
-            "icon": "zmdi zmdi-language-html5",
-            "heading": "WEB DEVELOMENT",
-            "content": "A Developer responsible for building a product that meets both the client’s needs and those of the customer or end user."
+            "icon": "zmdi zmdi-code",
+            "heading": "Full-Stack Web Development",
+            "content": "I offer end-to-end web development services, building robust applications with modern technologies like ReactJS, Vue.js, Node.js, and Laravel. From front-end interfaces to back-end APIs, I deliver scalable, secure, and high-performance solutions for businesses of all sizes."
         },
         {
-            "icon": "zmdi-smartphone-iphone",
-            "heading": "MOBILE APP DEVELOPMENT",
-            "content": "Building complex mobile applications in platforms such as Android and IOS and working on CRUD operations."
+            "icon": "zmdi zmdi-laptop",
+            "heading": "Custom API Development & Integration",
+            "content": "Specializing in creating custom RESTful APIs and integrating third-party services to enhance your application's functionality. I work with Node.js, Express, PHP, and MySQL to design backend systems that communicate seamlessly with your front-end, ensuring a smooth and efficient user experience."
         },
         {
-            "icon": "zmdi zmdi-filter-center-focus",
-            "heading": "RESPONSIVE DESIGN",
-            "content": "A website that should respond to the user’s behavior and environment based on screen size, platform and orientation"
+            "icon": "zmdi zmdi-shopping-cart",
+            "heading": "E-commerce Solutions",
+            "content": "I specialize in creating feature-rich e-commerce platforms using Shopify and WooCommerce, including custom themes, shopping cart integrations, and payment gateway implementations. I’ll help optimize your online store to enhance user experience and drive sales."
         },
         {
-            "icon": "zmdi zmdi-favorite-outline",
-            "heading": "WEB DESIGNING",
-            "content": "Converting a Photoshop Document(PSD) or any document into webpage using different programming languages."
+            "icon": "zmdi zmdi-trending-up",
+            "heading": "Web Performance Optimization",
+            "content": "From initial development to ongoing performance tuning, I ensure your web application runs at its best. Whether it’s optimizing load times, refactoring code for better maintainability, or updating back-end processes, I continuously monitor and enhance web apps to keep them running smoothly."
         }
     ],
     "projects": [
@@ -268,7 +268,7 @@
         {
             "name": "Github",
             "percent": "65",
-            "url": "./assets/img/language/github.svg"
+            "url": "./assets/img/language/github.png"
         },
         {
             "name": "Java",
