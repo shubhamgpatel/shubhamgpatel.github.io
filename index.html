@@ -140,8 +140,8 @@
 			<div class="row text-center" id="services">
 				<div class="mobile-mb-30 col-xs-12 col-sm-3 col-md-3" v-for="value in services">
 					<div class="single-service pt-50 pb-60 plr-20">
-						<i class="{{value.icon}}"></i>
-						<h5 class=" montserrat weight-medium no-margin">{{ value.heading }}</h5>
+						<i :class="value.icon"></i>
+						<h5 class="montserrat weight-medium no-margin">{{ value.heading }}</h5>
 						<hr class="mtb-15" />
 						<p>{{ value.content }}</p>
 					</div>
