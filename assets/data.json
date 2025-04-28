@@ -27,14 +27,14 @@
             "img": "assets/img/theartsylenss.png",
             "desc": "The Artsy LensS Films was a client project which was created using HTML, CSS, and JavaScript. The main focus of this project was to fulfill client requirements as per their demands and I used PHP code just to remove duplicate data. This website is responsive and consists of parallax effects.",
             "tagline": "A Photographer Website Design",
-            "url": "https://theartsylenss.com/"
+            "url": "https://github.com/shubhamgpatel/theartsylenss"
         },
         {
             "project": "iTutor",
             "img": "assets/img/project1.png",
             "desc": "This online tutor system will assist to locate tuition instructors from nearby locations. Teachers can also get a student just via logging onto the website and setting up the profile. In this system,there are three entities namely, Admin, Student, and Tutor. Admin can log in, control students, tutors & materials they share between one another.",
             "tagline": "PHP Website with Admin interface",
-            "url": "http://priyankakhadilkar.com/onlinetutor/"
+            "url": "https://github.com/shubhamgpatel/iTutor"
         },
         {
             "project": "Shree Sainath Marble Industries",
@@ -48,21 +48,21 @@
             "img": "assets/img/project3.png",
             "desc": "Startup tracker is a one page static website which is developed using Bootstrap, jQuery and CSS. It uses font awesome for icons and custom css for animations.",
             "tagline": "A Static Website",
-            "url": "https://startup-tracker.000webhostapp.com/"
+            "url": "https://github.com/shubhamgpatel/startup-tracker"
         },
         {
             "project": "Iyenkar Yoga",
             "img": "assets/img/project4.png",
             "desc": "This website is built using w3Layout template which has multiple pages such as about us, contact, courses, registration and Page not found. This website uses jquery fancybox for animations and carousel for slider.",
             "tagline": "A Static yoga website",
-            "url": "https://iyenkaryoga.000webhostapp.com/"
+            "url": "https://github.com/shubhamgpatel/iyenkar-yoga"
         },
         {
             "project": "iQlub",
             "img": "assets/img/project5.png",
             "desc": "This website is built using HTML, CSS, JavaScript and jQuery. The main aim for this website is to implement the Photoshop raw file into a webpage. In this website, I learnt how to be precise enough for pixels in a website.",
             "tagline": "PSD to HTML with JavaScript functionalities",
-            "url": "https://iqlub.000webhostapp.com/"
+            "url": "https://github.com/shubhamgpatel/iQlub"
         },
         {
             "project": "Traffic Signal",
@@ -76,7 +76,7 @@
             "img": "assets/img/project7.png",
             "desc": "This design is made using JavaScript and Vue Js for building logic and there were styling used to design the game.",
             "tagline": "A Omok Game",
-            "url": "https://shubham-omok.000webhostapp.com/"
+            "url": "https://github.com/shubhamgpatel/Omok"
         }
     ],
     "education": [
