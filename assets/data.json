@@ -258,9 +258,9 @@
             "url": "./assets/img/language/typescript.svg"
         },
         {
-            "name": "Bootstrap",
-            "percent": "60",
-            "url": "./assets/img/language/bootstrap.svg"
+            "name": "NodeJS",
+            "percent": "65",
+            "url": "./assets/img/language/nodejs.svg"
         },
         {
             "name": "ReactJs",
@@ -273,14 +273,9 @@
             "url": "./assets/img/language/redux.svg"
         },
         {
-            "name": "Angular",
-            "percent": "30",
-            "url": "./assets/img/language/angular.svg"
-        },
-        {
-            "name": "Node.js",
-            "percent": "65",
-            "url": "./assets/img/language/nodejs.svg"
+            "name": "Bootstrap",
+            "percent": "60",
+            "url": "./assets/img/language/bootstrap.svg"
         },
         {
             "name": "Vue.js",
@@ -288,9 +283,24 @@
             "url": "./assets/img/language/vue.svg"
         },
         {
+            "name": "jQuery",
+            "percent": "70",
+            "url": "./assets/img/language/jquery.svg"
+        },
+        {
+            "name": "Express",
+            "percent": "60",
+            "url": "./assets/img/language/express.svg"
+        },
+        {
             "name": "MongoDB",
             "percent": "65",
             "url": "./assets/img/language/mongodb.svg"
+        },
+        {
+            "name": "Angular",
+            "percent": "30",
+            "url": "./assets/img/language/angular.svg"
         },
         {
             "name": "MySQL",
@@ -298,19 +308,19 @@
             "url": "./assets/img/language/mysql.svg"
         },
         {
-            "name": "Photoshop",
+            "name": "Laravel",
             "percent": "60",
-            "url": "./assets/img/language/photoshop.svg"
+            "url": "./assets/img/language/laravel.svg"
+        },
+        {
+            "name": "Codeigniter",
+            "percent": "60",
+            "url": "./assets/img/language/codeigniter.svg"
         },
         {
             "name": "PHP",
             "percent": "60",
             "url": "./assets/img/language/php.svg"
-        },
-        {
-            "name": "jQuery",
-            "percent": "70",
-            "url": "./assets/img/language/jquery.svg"
         },
         {
             "name": "Github",
@@ -321,16 +331,6 @@
             "name": "Java",
             "percent": "65",
             "url": "./assets/img/language/java.svg"
-        },
-        {
-            "name": "Android",
-            "percent": "65",
-            "url": "./assets/img/language/android.svg"
-        },
-        {
-            "name": "Swift",
-            "percent": "65",
-            "url": "./assets/img/language/swift.svg"
         },
         {
             "name": "Wordpress",
