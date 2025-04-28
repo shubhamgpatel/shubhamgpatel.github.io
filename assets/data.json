@@ -268,6 +268,11 @@
             "url": "./assets/img/language/react.svg"
         },
         {
+            "name": "Redux",
+            "percent": "55",
+            "url": "./assets/img/language/redux.svg"
+        },
+        {
             "name": "Angular",
             "percent": "30",
             "url": "./assets/img/language/angular.svg"
