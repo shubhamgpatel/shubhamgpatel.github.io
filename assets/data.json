@@ -23,7 +23,49 @@
     ],
     "projects": [
         {
-            "project": "The Artsy LensS Films",
+            "project": "Legend Tire Canada",
+            "img": "assets/img/project9.png",
+            "desc": "The Artsy LensS Films was a client project which was created using HTML, CSS, and JavaScript. The main focus of this project was to fulfill client requirements as per their demands and I used PHP code just to remove duplicate data. This website is responsive and consists of parallax effects.",
+            "tagline": "Custom WordPress Website Build",
+            "url": "legendtire.ca"
+        },
+        {
+            "project": "Truxcoparts",
+            "img": "assets/img/project14.png",
+            "desc": "-",
+            "tagline": "Designed and Developed in WordPress",
+            "url": "truxcoparts.com"
+        },
+        {
+            "project": "Alpena",
+            "img": "assets/img/project10.png",
+            "desc": ".",
+            "tagline": "Custom Shopify Development",
+            "url": "alpena.ca"
+        },
+        {
+            "project": "CosmoWeb",
+            "img": "assets/img/project11.png",
+            "desc": ".",
+            "tagline": "Full WordPress Setup and Launch",
+            "url": "cosmo-web.ca"
+        },
+        {
+            "project": "Lease Transfer Site",
+            "img": "assets/img/project13.png",
+            "desc": ".",
+            "tagline": "Real-Time Listing Automation",
+            "url": "lease-transfer.ca"
+        },
+        {
+            "project": "Action Program",
+            "img": "assets/img/project12.png",
+            "desc": ".",
+            "tagline": "Responsive One-Page Website Build",
+            "url": "https://github.com/shubhamgpatel/actionprogram"
+        },
+        {
+            "project": "The Artsy Lens Films",
             "img": "assets/img/theartsylenss.png",
             "desc": "The Artsy LensS Films was a client project which was created using HTML, CSS, and JavaScript. The main focus of this project was to fulfill client requirements as per their demands and I used PHP code just to remove duplicate data. This website is responsive and consists of parallax effects.",
             "tagline": "A Photographer Website Design",
@@ -65,18 +107,18 @@
             "url": "https://github.com/shubhamgpatel/iQlub"
         },
         {
-            "project": "Traffic Signal",
-            "img": "assets/img/project6.png",
-            "desc": "This design is made using HTML CSS3 and jQuery. The main aim of this design is to explore the usage of animations in CSS3.",
-            "tagline": "A HTML CSS3 Animation",
-            "url": "https://design-dig.000webhostapp.com/"
-        },
-        {
             "project": "Omok Game",
             "img": "assets/img/project7.png",
             "desc": "This design is made using JavaScript and Vue Js for building logic and there were styling used to design the game.",
             "tagline": "A Omok Game",
             "url": "https://github.com/shubhamgpatel/Omok"
+        },
+        {
+            "project": "Lensman Studios",
+            "img": "assets/img/project8.png",
+            "desc": "Designed and developed a professional photography website on Wix, showcasing the client’s portfolio with a modern and visually engaging layout.",
+            "tagline": "A Photographer Website",
+            "url": "https://www.lensmanstudios.ca/"
         }
     ],
     "education": [
