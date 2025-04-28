@@ -98,7 +98,7 @@
 				<div class="row relative">
 					<div class="col-xs-12 col-sm-6 static">
 						<div class="slider-text percent-50">
-							<h5 class="mb-11">Hello, my name is</h5>
+							<h5 class="mb-11">Hello, I am</h5>
 							<h1 class="mb-30 white-color">Shubham Patel</h1>
 							<p class="font-16 line-height-28">
 								I am an experienced Web Developer with over 4 years of expertise in building dynamic,
@@ -167,7 +167,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-5">
 					<div class="left mr-40">
-						<h3 class="font-22 capitalize">Howdy!</h3>
+						<h3 class="font-22 capitalize white-color">Howdy!</h3>
 						<p class="font-16 line-height-28">I am a Web Developer seeking a full-time position, where I can
 							utilize my skills and knowledge for continuous improvement. I have great experience in Web
 							Development where I design web pages, fix them, developed strategies that drive products to
@@ -209,13 +209,13 @@
 				</div>
 			</div>
 			<div class="row" id="experience">
-				<div class="col-xs-12 col-sm-6 mobile-mb-30">
-					<div class="left" v-for="value in experience.slice(0,2)">
+				<div class="col-xs-12 col-sm-12 mobile-mb-30">
+					<div class="left" v-for="value in experience">
 						<div class="single-experi mb-50">
 							<div class="left-text floatleft relative">
 								<div class="dashed-line"></div>
-								<h4 class="montserrat weight-medium mb-5 capitalize wordbreak light-color">{{
-									value.company }}</h4>
+								<h4 class="montserrat weight-medium mb-5 capitalize light-color">{{ value.company }}
+								</h4>
 								<p class="montserrat weight-medium">{{ value.year }}</p>
 							</div>
 							<div class="right-text">
@@ -232,8 +232,7 @@
 						<div class="single-experi mb-50">
 							<div class="left-text floatleft relative">
 								<div class="dashed-line"></div>
-								<h4 style="word-break: break-all"
-									class="montserrat weight-medium mb-5 capitalize light-color">{{ value.company }}
+								<h4 class="montserrat weight-medium mb-5 capitalize light-color">{{ value.company }}
 								</h4>
 								<p class="montserrat weight-medium">{{ value.year }}</p>
 							</div>
@@ -243,17 +242,17 @@
 								<p>{{ value.desc }} </p>
 							</div>
 						</div>
-						<!-- <div class="single-experi">
-								<div class="left-text floatleft">
-									<h4 class="montserrat weight-medium mb-5 capitalize">Themeforest</h4>
-									<p class="montserrat weight-medium">2007-2008</p>
-								</div>
-								<div class="right-text">
-									<i class="zmdi zmdi-check-circle"></i>
-									<h3 class="capitalize font-20">Programmer & Developer</h3>
-									<p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
-								</div>
-							</div> -->
+						<div class="single-experi">
+							<div class="left-text floatleft">
+								<h4 class="montserrat weight-medium mb-5 capitalize">Themeforest</h4>
+								<p class="montserrat weight-medium">2007-2008</p>
+							</div>
+							<div class="right-text">
+								<i class="zmdi zmdi-check-circle"></i>
+								<h3 class="capitalize font-20">Programmer & Developer</h3>
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

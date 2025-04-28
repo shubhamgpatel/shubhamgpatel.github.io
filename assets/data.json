@@ -101,35 +101,35 @@
             "year": "Jan 2022 - Feb 2025",
             "role": "Web Designer & Developer",
             "company": "Synchroworks Consulting",
-            "desc": "Developed multiple functionalities using Axios, Laravel, and VueJS, creating custom front-end components andworking with Blade files to enhance website performance.",
+            "desc": "At Synchroworks Consulting, I built dynamic, high-performance web applications using ReactJS, VueJS, and Laravel, focusing on efficient API integration with Axios and state management. I applied in-depth ReactJS concepts such as component lifecycle methods, hooks (useState, useEffect, useContext), and dynamic routing to create scalable and maintainable projects. I also optimized WordPress websites for speed and responsiveness, and customized Shopify stores to deliver tailored client solutions.",
             "img": "assets/img/experience/PwcExperience.png"
         },
         {
             "year": "Jul 2020 - Dec 2021",
             "role": "Web Developer",
             "company": "Legend Tire Canada",
-            "desc": "Creating and managing ecommerce websites build on Woocommerce and Shopify.",
+            "desc": "At Truxco Incorporated, I customized and optimized WordPress websites by writing clean PHP, JavaScript, and CSS, minimizing plugin usage for performance. I also developed responsive layouts with HTML5/CSS3, customized WooCommerce functionality (including payment gateway integration), and created a lightweight CMS interface for clients, while enhancing SEO and marketing efforts.",
             "img": "assets/img/experience/PwcExperience.png"
         },
         {
             "year": "Jul 2017 - Aug 2019",
             "role": "Specialist - Analyst",
             "company": "PriceWaterhouse Coopers Pvt Ltd.",
-            "desc": "Audits for following companies  Microsoft, Adobe, Autodesk, Siemens,Dassault Systemes Pvt Ltd",
+            "desc": "Provided client-facing technical support by reviewing and managing software licenses, maintaining asset management databases, and running custom scripts on client machines for troubleshooting and compliance. Collaborated with technical teams to optimize software lifecycle management and proactively improve licensing strategies.",
             "img": "assets/img/experience/PwcExperience.png"
         },
         {
             "year": "Apr 2016 - May 2016",
             "role": "Web Designer & Developer",
             "company": "Peak Performance",
-            "desc": "Designing web pages using HTML, CSS3, javaScript, jQuery, Bootstrap and Ajax",
+            "desc": "Built and optimized websites using JavaScript, PHP, and HTML/CSS, with a focus on DOM manipulation, dynamic data handling, and responsive cross-browser compatibility. Translated PSD designs into functional, mobile-friendly web interfaces while improving site performance and code efficiency.",
             "img": "assets/img/experience/peak-performance-1.png"
         },
         {
             "year": "Nov 2015 - Jul 2016",
             "role": "Web Designer & Developer",
             "company": "OrgGen",
-            "desc": "Worked on different websites such as Kitaabmandi, Iyenkar yoga and WEQ. Also making Web pages using HTML, CSS3, JavaScript, PHP, Bootstrap",
+            "desc": "Developed and optimized websites using JavaScript, PHP frameworks, and standard HTML/CSS practices, ensuring cross-browser compatibility and responsive design. Analyzed and manipulated the DOM structure, validated dynamic data transfers between pages, and converted Photoshop (PSD) designs into fully responsive, production-ready web pages.",
             "img": "assets/img/experience/orgGen-1.png"
         }
     ],
