@@ -409,8 +409,7 @@
 							<li>
 								<i class="zmdi zmdi-email"></i>
 								<h4 class="montserrat weight-regular no-margin capitalize">Email</h4>
-								<span><a id="email" class="montserrat weight-regular" href="mailto:{{ email }}">{{ email
-										}}</a></span>
+								<span><a id="email" class="montserrat weight-regular" href="mailto:{{ email }}">{{ email}}</a></span>
 							</li>
 							<li>
 								<i class="zmdi zmdi-home"></i>
@@ -460,7 +459,9 @@
 				<div class="col-xs-12">
 					<div class="left floatleft">
 						<!-- <p>Copyright &copy; 2020 <a href="https://themeforest.net/user/regaltheme" target="_blank">Regaltheme</a>.</p> -->
-						<p>Developed by Shubham Patel</p>
+						<p>Developed by Shubham Patel
+							<span id="visitor-count" style="font-size: 12px; margin-left: 10px; color: #aaa;"></span>
+						</p>
 					</div>
 					<div class="right social-link floatright">
 						<ul class="clearfix">
@@ -502,6 +503,50 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script> -->
 	<script src="assets/js/script_vue.js"></script>
+	<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+<script>
+	// TODO: Replace with your Firebase config
+	var firebaseConfig = {
+		apiKey: "AIzaSyDucvOt95Jalzw1kmO4xZ9ebtvZ_RzPhaw",
+  authDomain: "portfolio-count-8ce22.firebaseapp.com",
+  databaseURL: "https://portfolio-count-8ce22-default-rtdb.firebaseio.com",
+  projectId: "portfolio-count-8ce22",
+  storageBucket: "portfolio-count-8ce22.firebasestorage.app",
+  messagingSenderId: "56963173721",
+  appId: "1:56963173721:web:3ab023764613052d9cd048",
+  measurementId: "G-PL9HXMH5SL"
+	};
+	firebase.initializeApp(firebaseConfig);
+	var db = firebase.database();
+
+	// Time limit between revisits (in milliseconds)
+	const VISIT_EXPIRY = 1000 * 60 * 60 * 24; // 24 hours
+
+	const lastVisit = localStorage.getItem("lastVisit");
+	const now = Date.now();
+
+	if (!lastVisit || now - lastVisit > VISIT_EXPIRY) {
+		// Count as a new visit
+		const counterRef = db.ref("visitorCount");
+
+		counterRef.transaction(function(currentCount) {
+			return (currentCount || 0) + 1;
+		});
+
+		localStorage.setItem("lastVisit", now);
+	}
+
+	// Show count on page
+	const counterRef = db.ref("visitorCount");
+	counterRef.on("value", function(snapshot) {
+		document.getElementById("visitor-count").innerText =
+			"Visitors: " + snapshot.val();
+	});
+</script>
+
 </body>
 
 </html>
