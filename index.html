@@ -465,7 +465,7 @@
 				<div class="col-xs-12">
 					<div class="left floatleft">
 						<!-- <p>Copyright &copy; 2020 <a href="https://themeforest.net/user/regaltheme" target="_blank">Regaltheme</a>.</p> -->
-						<p>Developed by Shubham Patel
+						<p>Developed by Shubham Patel &ensp;
 							<i class="zmdi zmdi-eye"></i> <span id="visitor-count">0</span>
 						</p>
 					</div>
@@ -548,7 +548,7 @@
 	// Show count on page
 	const counterRef = db.ref("visitorCount");
 	counterRef.on("value", function(snapshot) {
-		document.getElementById("visitor-count").innerText = `&ensp;<i class="zmdi zmdi-eye"></i> ${snapshot.val()}`;
+		document.getElementById("visitor-count").innerText = `${snapshot.val()}`;
 	});
 </script>
 <script>
