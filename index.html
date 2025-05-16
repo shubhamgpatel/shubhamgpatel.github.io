@@ -460,7 +460,7 @@
 					<div class="left floatleft">
 						<!-- <p>Copyright &copy; 2020 <a href="https://themeforest.net/user/regaltheme" target="_blank">Regaltheme</a>.</p> -->
 						<p>Developed by Shubham Patel
-							<span id="visitor-count" style="font-size: 12px; margin-left: 10px; color: #aaa;"></span>
+							<i class="zmdi zmdi-eye"></i> 0
 						</p>
 					</div>
 					<div class="right social-link floatright">
@@ -542,8 +542,7 @@
 	// Show count on page
 	const counterRef = db.ref("visitorCount");
 	counterRef.on("value", function(snapshot) {
-		document.getElementById("visitor-count").innerText =
-			"Visitors: " + snapshot.val();
+		document.getElementById("visitor-count").innerText = `<i class="zmdi zmdi-eye"></i> ${snapshot.val()}`;
 	});
 </script>
 
