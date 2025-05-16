@@ -6,8 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Shubham Portfolio Template">
-	<meta name="keywords"
-		content="Shubham Patel, Shubh, Shubham, 6475623939, Personal, Portfolio, Personal portfolio template, Personal portfolio, landing page, material design, portfolio, personal">
+	<meta name="keywords" content="Shubham Patel, Shubh, Shubham, 6475623939, Personal, Portfolio, Personal portfolio template, Personal portfolio, landing page, material design, portfolio, personal">
 	<meta name="author" content="shubham.patel">
 
 	<title>Shubham Patel || Portfolio</title>
@@ -69,7 +68,11 @@
 										<li><a href="#about">About</a></li>
 										<li><a href="#portfolio">PORTFOLIO</a></li>
 										<li><a href="#contact">Contact</a></li>
+										<li><a href="javascript:void(0);" id="toggleThemeIcon">
+											<i class="zmdi zmdi-brightness-4"></i>
+										</a></li>
 									</ul>
+									
 								</nav>
 							</div>
 						</div>
@@ -542,7 +545,7 @@
 	// Show count on page
 	const counterRef = db.ref("visitorCount");
 	counterRef.on("value", function(snapshot) {
-		document.getElementById("visitor-count").innerText = `<i class="zmdi zmdi-eye"></i> ${snapshot.val()}`;
+		document.getElementById("visitor-count").innerText = `&ensp;<i class="zmdi zmdi-eye"></i> ${snapshot.val()}`;
 	});
 </script>
 

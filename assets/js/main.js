@@ -285,3 +285,34 @@ let customInterval = setInterval(()=>{
 // 	//Preloader
 	
 // });
+	document.addEventListener('DOMContentLoaded', function () {
+		const themeToggle = document.getElementById('toggleThemeIcon');
+		const icon = themeToggle.querySelector('i');
+		const body = document.body;
+		const savedTheme = localStorage.getItem('theme');
+
+		// Set initial theme
+		if (savedTheme === 'light') {
+			body.classList.remove('dark-version');
+			body.classList.add('light-version');
+			icon.classList.remove('zmdi-brightness-4');
+			icon.classList.add('zmdi-brightness-7');
+		}
+
+		themeToggle.addEventListener('click', function () {
+			if (body.classList.contains('dark-version')) {
+				body.classList.remove('dark-version');
+				body.classList.add('light-version');
+				icon.classList.remove('zmdi-brightness-4');
+				icon.classList.add('zmdi-brightness-7');
+				localStorage.setItem('theme', 'light');
+			} else {
+				body.classList.remove('light-version');
+				body.classList.add('dark-version');
+				icon.classList.remove('zmdi-brightness-7');
+				icon.classList.add('zmdi-brightness-4');
+				localStorage.setItem('theme', 'dark');
+			}
+		});
+	});
+

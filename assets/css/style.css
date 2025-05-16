@@ -2168,3 +2168,17 @@ select {
         padding: 25px 0 25px 0;
     }
 }
+body.dark-version .some-class {
+	background-color: #000;
+	color: #fff;
+}
+
+body.light-version .some-class {
+	background-color: #fefae0;
+	color: #1d3557;
+}
+#toggleThemeIcon i {
+	font-size: 20px;
+	color: #fff; /* or #000 based on theme */
+	cursor: pointer;
+}
