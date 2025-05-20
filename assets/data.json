@@ -32,7 +32,7 @@
         {
             "project": "Truxcoparts",
             "img": "assets/img/project14.png",
-            "desc": "-",
+            "desc": "Developed a custom automotive parts store using WordPress and WooCommerce, including dynamic product filters, secure checkout, and user-friendly design tailored to the client’s brand.",
             "tagline": "Designed and Developed in WordPress",
             "url": "truxcoparts.com"
         },
@@ -143,7 +143,7 @@
             "year": "Jan 2022 - Feb 2025",
             "role": "Web Designer & Developer",
             "company": "Synchroworks Consulting",
-            "desc": "At Synchroworks Consulting, I built dynamic, high-performance web applications using ReactJS, VueJS, and Laravel, focusing on efficient API integration with Axios and state management. I applied in-depth ReactJS concepts such as component lifecycle methods, hooks (useState, useEffect, useContext), and dynamic routing to create scalable and maintainable projects. I also optimized WordPress websites for speed and responsiveness, and customized Shopify stores to deliver tailored client solutions.",
+            "desc": "Developed high-performance web applications using ReactJS, VueJS, and Laravel. Focused on efficient API integrations with Axios, state management with React hooks, and dynamic routing. Optimized WordPress websites for speed and responsiveness, and customized Shopify stores for tailored client solutions.",
             "img": "assets/img/experience/PwcExperience.png"
         },
         {
@@ -349,7 +349,24 @@
         "school": "Usha Pravin Gandhi College of Management",
         "img": "assets/img"
     },
-    "contact": "+1 647 562 3939",
-    "email": "shubhampatel.contact@gmail.com",
-    "location": "Toronto, CA"
+   "contactInfo": [
+  {
+    "icon": "zmdi zmdi-phone-in-talk",
+    "label": "Phone",
+    "value": "+1 647 562 3939",
+    "href": "tel:+16475623939"
+  },
+  {
+    "icon": "zmdi zmdi-email",
+    "label": "Email",
+    "value": "shubhampatel.contact@gmail.com",
+    "href": "mailto:shubhampatel.contact@gmail.com"
+  },
+  {
+    "icon": "zmdi zmdi-home",
+    "label": "Location",
+    "value": "Toronto, CA",
+    "href": null
+  }
+]
 }

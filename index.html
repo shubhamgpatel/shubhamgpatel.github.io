@@ -8,12 +8,9 @@
 	<meta name="description" content="Shubham Portfolio Template">
 	<meta name="keywords" content="Shubham Patel, Shubh, Shubham, 6475623939, Personal, Portfolio, Personal portfolio template, Personal portfolio, landing page, material design, portfolio, personal">
 	<meta name="author" content="shubham.patel">
-
 	<title>Shubham Patel || Portfolio</title>
-
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico.png">
-
 	<!-- style css -->
 	<link rel="stylesheet" href="style.css">
 	<!-- modernizr js -->
@@ -22,6 +19,8 @@
 </head>
 
 <body>
+	<div id="app" class="dark-version">
+		  
 	<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -69,9 +68,9 @@
 										<li><a href="#portfolio">PORTFOLIO</a></li>
 										<li><a href="#contact">Contact</a></li>
 										<li>
-											<button id="toggleThemeIcon" title="Toggle Theme" style="background: none; border: none; cursor: pointer;">
+											<!-- <button id="toggleThemeIcon" title="Toggle Theme" style="background: none; border: none; cursor: pointer;">
 											  <i class="zmdi zmdi-brightness-6" style="font-size: 20px; color: inherit;"></i>
-											</button>
+											</button> -->
 										  </li>
 										  
 									</ul>
@@ -86,8 +85,7 @@
 				<div class="close-menu">
 					<i class="zmdi zmdi-close-circle-o"></i>
 				</div>
-				<div class="menu-logo"><a href="index.html"><img src="assets/img/dark-logo.png"
-							alt="Shubham Patel" /></a></div>
+				<div class="menu-logo"><a href="index.html"><img src="assets/img/dark-logo.png" alt="Shubham Patel" /></a></div>
 				<nav class="mainmenu-box onepage-nev">
 					<ul class="clearfix">
 						<li><a href="#home">Home</a></li>
@@ -129,18 +127,13 @@
 		</div>
 	</header>
 	<!-- Header Section End -->
+	<div>
 	<!-- Service Section Start -->
 	<section class="service-area bg-color-3 dark-version section-padding" id="service">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="section-title text-center mb-60">
-						<h2 class="mb-20 white-color">My Services</h2>
-						<div class="horizontal-line">
-							<div class="top"></div>
-							<div class="bottom"></div>
-						</div>
-					</div>
+					<section-title title="My Services"></section-title>
 				</div>
 			</div>
 			<div class="row text-center" id="services">
@@ -161,13 +154,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="section-title text-center mb-60">
-						<h2 class="mb-20 white-color">About Me</h2>
-						<div class="horizontal-line">
-							<div class="top"></div>
-							<div class="bottom"></div>
-						</div>
-					</div>
+					<section-title title="About Me"></section-title>
 				</div>
 			</div>
 			<div class="row">
@@ -203,98 +190,21 @@
 	<!-- Experience Section Start -->
 	<section class="experience-area dark-version section-padding bg-color-3 dark-bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="section-title text-center mb-60">
-						<h2 class="mb-20 white-color">My Experience</h2>
-						<div class="horizontal-line">
-							<div class="top"></div>
-							<div class="bottom"></div>
-						</div>
-					</div>
-				</div>
+		  <div class="row">
+			<div class="col-xs-12">
+			  <section-title title="My Experience"></section-title>
 			</div>
-			<div class="row" id="experience">
-				<div class="col-xs-12 col-sm-12 mobile-mb-30">
-					<div class="left" v-for="value in experience">
-						<div class="single-experi mb-50">
-							<div class="left-text floatleft relative">
-								<div class="dashed-line"></div>
-								<h4 class="montserrat weight-medium mb-5 capitalize light-color">{{ value.company }}
-								</h4>
-								<p class="montserrat weight-medium">{{ value.year }}</p>
-							</div>
-							<div class="right-text">
-								<i class="zmdi zmdi-check-circle"></i>
-								<h3 class="capitalize font-20 light-color">{{ value.role }}</h3>
-								<p>{{ value.desc }}</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<!-- {
-					"project": "Traffic Signal",
-					"img": "assets/img/project6.png",
-					"desc": "This design is made using HTML CSS3 and jQuery. The main aim of this design is to explore the usage of animations in CSS3.",
-					"tagline": "A HTML CSS3 Animation",
-					"url": "https://design-dig.000webhostapp.com/"
-				}, 
-				        {
-            "name": "Swift",
-            "percent": "65",
-            "url": "./assets/img/language/swift.svg"
-        },
-		        {
-            "name": "Photoshop",
-            "percent": "60",
-            "url": "./assets/img/language/photoshop.svg"
-        },
-		-->
-				<!-- <div class="col-xs-12 col-sm-6">
-					<div class="right" v-for="value in experience.slice(2,4)">
-						<div class="single-experi mb-50">
-							<div class="left-text floatleft relative">
-								<div class="dashed-line"></div>
-								<h4 class="montserrat weight-medium mb-5 capitalize light-color">{{ value.company }}
-								</h4>
-								<p class="montserrat weight-medium">{{ value.year }}</p>
-							</div>
-							<div class="right-text">
-								<i class="zmdi zmdi-check-circle"></i>
-								<h3 class="capitalize font-20 light-color">{{ value.role }}</h3>
-								<p>{{ value.desc }} </p>
-							</div>
-						</div> -->
-				<!-- <div class="single-experi">
-							<div class="left-text floatleft">
-								<h4 class="montserrat weight-medium mb-5 capitalize">Themeforest</h4>
-								<p class="montserrat weight-medium">2007-2008</p>
-							</div>
-							<div class="right-text">
-								<i class="zmdi zmdi-check-circle"></i>
-								<h3 class="capitalize font-20">Programmer & Developer</h3>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
-							</div>
-						</div>
-					</div> -->
-				<!-- </div> -->
-			</div>
+		  </div>
+		  <experience-section :items="experience"></experience-section>
 		</div>
-	</section>
-	<!-- Experience Section End -->
+	  </section>
+	  
 	<!-- Education Section Start -->
 	<section class="service-area dark-bg dark-version section-padding ">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="section-title text-center mb-60">
-						<h2 class="mb-20 white-color">Education</h2>
-						<div class="horizontal-line">
-							<div class="top"></div>
-							<div class="bottom"></div>
-						</div>
-					</div>
+					<section-title title="Education"></section-title>
 				</div>
 			</div>
 			<div class="row text-center" id="education">
@@ -318,13 +228,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="section-title text-center mb-30">
-						<h2 class="mb-20 white-color">My Portfolio</h2>
-						<div class="horizontal-line">
-							<div class="top"></div>
-							<div class="bottom"></div>
-						</div>
-					</div>
+					<section-title title="My Portfolio"></section-title>
 				</div>
 			</div>
 			<div class="row">
@@ -377,8 +281,7 @@
 											</a>
 										</div>
 										<div class="project-title text-left">
-											<h4 class="font-20 montserrat weight-regular capitalize no-margin">{{
-												value.course }}</h4>
+											<h4 class="font-20 montserrat weight-regular capitalize no-margin">{{value.course }}</h4>
 											<p class="montserratlight">{{ value.src }}</p>
 										</div>
 									</div>
@@ -407,22 +310,15 @@
 							<!-- <p>There are many variations of pssges of Lorem Ipsum available, bu in some form, by</p> -->
 						</div>
 						<ul class="contact-text clearfix">
-							<li>
-								<i class="zmdi zmdi-phone-in-talk"></i>
-								<h4 class="montserrat weight-regular no-margin capitalize">Phone</h4>
-								<span><a id="contact" class="montserrat weight-regular" href="">{{ contact }}</a></span>
+							<li v-for="(item, index) in contactInfo" :key="index">
+							  <i :class="item.icon"></i>
+							  <h4 class="montserrat weight-regular no-margin capitalize">{{ item.label }}</h4>
+							  <span class="montserrat weight-regular capitalize">
+								<a v-if="item.href" :href="item.href">{{ item.value }}</a>
+								<span v-else>{{ item.value }}</span>
+							  </span>
 							</li>
-							<li>
-								<i class="zmdi zmdi-email"></i>
-								<h4 class="montserrat weight-regular no-margin capitalize">Email</h4>
-								<span><a id="email" class="montserrat weight-regular" href="mailto:{{ email }}">{{ email}}</a></span>
-							</li>
-							<li>
-								<i class="zmdi zmdi-home"></i>
-								<h4 class="montserrat weight-regular capitalize no-margin">Location</h4>
-								<span id="location" class="montserrat weight-regular capitalize">{{ location }}</span>
-							</li>
-						</ul>
+						</ul>						  
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-8">
@@ -480,6 +376,7 @@
 			</div>
 		</div>
 	</footer>
+	</div>
 	<!-- Footer Section End -->
 
 	<!-- All JS Here -->
@@ -551,7 +448,7 @@
 		document.getElementById("visitor-count").innerText = `${snapshot.val()}`;
 	});
 </script>
-<script>
+<!-- <script>
 	const icon = document.getElementById("toggleThemeIcon");
 	const body = document.body;
   
@@ -575,8 +472,36 @@
 		localStorage.setItem("theme", "dark");
 	  }
 	});
-  </script>
+  </script> -->
+  <!-- <script>
+	document.addEventListener('DOMContentLoaded', function () {
+	  const toggleBtn = document.getElementById('theme-toggle');
+	  const app = document.getElementById('app');
   
+	  // Load saved theme
+	  const savedTheme = localStorage.getItem('theme');
+	  if (savedTheme === 'light') {
+		app.classList.remove('dark-version');
+		app.classList.add('light-version');
+	  }
+  
+	  toggleBtn.addEventListener('click', () => {
+		const isLight = app.classList.contains('light-version');
+  
+		if (isLight) {
+		  app.classList.remove('light-version');
+		  app.classList.add('dark-version');
+		  localStorage.setItem('theme', 'dark');
+		} else {
+		  app.classList.remove('dark-version');
+		  app.classList.add('light-version');
+		  localStorage.setItem('theme', 'light');
+		}
+	  });
+	});
+  </script> -->
+  
+  </div>
 </body>
 
 </html>
