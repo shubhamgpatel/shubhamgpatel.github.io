@@ -8,18 +8,18 @@
 	<meta name="description" content="Shubham Portfolio Template">
 	<meta name="keywords" content="Shubham Patel, Shubh, Shubham, 6475623939, Personal, Portfolio, Personal portfolio template, Personal portfolio, landing page, material design, portfolio, personal">
 	<meta name="author" content="shubham.patel">
-	<title>Shubham Patel || Portfolio</title>
+	<title>Shubham Patel | Portfolio</title>
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico.png">
 	<!-- style css -->
 	<link rel="stylesheet" href="style.css">
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+	<link id="theme-style" rel="stylesheet" href="./assets/css/theme-light.css">
 
 </head>
 
 <body>
-	<div id="app" class="dark-version">
 		  
 	<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -32,7 +32,7 @@
         <![endif]-->
 
 	<!-- Loading Bar Start -->
-	<div id="loading" class="dark-version">
+	<div id="loading" >
 		<div id="loading-center">
 			<div id="loading-center-absolute">
 				<img src="assets/img/dark-logo.png" alt="Shubham Patel" />
@@ -59,29 +59,29 @@
 						</div>
 						<div class="col-xs-6 col-sm-7">
 							<div class="right">
-								<div class="expand-menu-open floatright"><i class="zmdi zmdi-menu"></i></div>
+								<div class="expand-menu-open floatright">
+									<i class="zmdi zmdi-menu"></i></div>
 								<nav class="mainmenu onepage-nev floatright">
-									<ul class="clearfix">
+									<ul class="clearfix d-flex" style="display: flex; align-items: center;">
 										<li><a href="#home">Home</a></li>
 										<li><a href="#service">Services</a></li>
 										<li><a href="#about">About</a></li>
 										<li><a href="#portfolio">PORTFOLIO</a></li>
 										<li><a href="#contact">Contact</a></li>
-										<li>
-											<!-- <button id="toggleThemeIcon" title="Toggle Theme" style="background: none; border: none; cursor: pointer;">
-											  <i class="zmdi zmdi-brightness-6" style="font-size: 20px; color: inherit;"></i>
-											</button> -->
-										  </li>
-										  
+										<li style="width:30px">
+											<button id="toggleThemeIcon" title="Toggle Theme" style="background: none; border: none; cursor: pointer;">
+											  <i class="zmdi zmdi-sun" id="icon-light" style="font-size: 20px; margin-top: 10px;"></i>
+											  <i class="zmdi zmdi-brightness-2" id="icon-dark" style="color:#fffaf0;font-size: 20px; margin-top: 10px;"></i>
+											</button>
+										</li>
 									</ul>
-									
 								</nav>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="mainmenu-expand bg-color-3">
+			<div class="mainmenu-expand bg-charcoal">
 				<div class="close-menu">
 					<i class="zmdi zmdi-close-circle-o"></i>
 				</div>
@@ -103,7 +103,7 @@
 					<div class="col-xs-12 col-sm-6 static">
 						<div class="slider-text percent-50">
 							<h5 class="mb-11">Hello, I am</h5>
-							<h1 class="mb-30 white-color">Shubham Patel</h1>
+							<h1 class="mb-30">Shubham Patel</h1>
 							<p class="font-16 line-height-28">
 								I am an experienced Web Developer with over 4 years of expertise in building dynamic,
 								user-friendly applications using ReactJS, VueJS, WordPress, and PHP. With a background
@@ -126,8 +126,8 @@
 			</div>
 		</div>
 	</header>
+	<div id="shubh">
 	<!-- Header Section End -->
-	<div>
 	<!-- Service Section Start -->
 	<section class="service-area bg-color-3 dark-version section-padding" id="service">
 		<div class="container">
@@ -160,7 +160,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-5">
 					<div class="left mr-40">
-						<h3 class="font-22 capitalize white-color">Howdy!</h3>
+						<h3 class="font-22 capitalize">Howdy!</h3>
 						<p class="font-16 line-height-28">I am a Web Developer seeking a full-time position, where I can
 							utilize my skills and knowledge for continuous improvement. I have great experience in Web
 							Development where I design web pages, fix them, developed strategies that drive products to
@@ -188,7 +188,7 @@
 	</section>
 	<!-- About Section End -->
 	<!-- Experience Section Start -->
-	<section class="experience-area dark-version section-padding bg-color-3 dark-bg">
+	<section class="experience-area dark-version section-padding bg-color-3">
 		<div class="container">
 		  <div class="row">
 			<div class="col-xs-12">
@@ -224,7 +224,7 @@
 	<!-- Education Section End -->
 
 	<!-- Portfolio Section Start -->
-	<section class="portfolio-area portfolio-one dark-bg section-padding clearfix" id="portfolio">
+	<section class="portfolio-area portfolio-one bg-color-3 section-padding clearfix" id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -296,13 +296,13 @@
 	<!-- Portfolio Section End -->
 
 	<!-- Contact Section Start -->
-	<section class="contact-area  dark-version bg-color-3 section-padding" id="contact">
+	<section class="contact-area dark-version dark-bg section-padding" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="left">
 						<div class="section-title mb-30">
-							<h2 class="mb-15 white-color">GET IN TOUCH</h2>
+							<h2 class="mb-15">GET IN TOUCH</h2>
 							<div class="horizontal-line mb-20">
 								<div class="top"></div>
 								<div class="bottom"></div>
@@ -313,8 +313,8 @@
 							<li v-for="(item, index) in contactInfo" :key="index">
 							  <i :class="item.icon"></i>
 							  <h4 class="montserrat weight-regular no-margin capitalize">{{ item.label }}</h4>
-							  <span class="montserrat weight-regular capitalize">
-								<a v-if="item.href" :href="item.href">{{ item.value }}</a>
+							  <span class="montserrat">
+								<a class="capitalize weight-regular" v-if="item.href" :href="item.href">{{ item.value }}</a>
 								<span v-else>{{ item.value }}</span>
 							  </span>
 							</li>
@@ -355,7 +355,7 @@
 	</section>
 	<!-- Contact Section End -->
 	<!-- Footer Section Start -->
-	<footer class="footer dark-version dark-bg ptb-20">
+	<footer class="footer dark-version ptb-20" style="background-color: #000;">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -376,7 +376,6 @@
 			</div>
 		</div>
 	</footer>
-	</div>
 	<!-- Footer Section End -->
 
 	<!-- All JS Here -->
@@ -448,58 +447,6 @@
 		document.getElementById("visitor-count").innerText = `${snapshot.val()}`;
 	});
 </script>
-<!-- <script>
-	const icon = document.getElementById("toggleThemeIcon");
-	const body = document.body;
-  
-	// Load theme from localStorage
-	if (localStorage.getItem("theme") === "light") {
-	  body.classList.remove("dark-version");
-	  body.classList.add("light-version");
-	} else {
-	  body.classList.remove("light-version");
-	  body.classList.add("dark-version");
-	}
-  
-	icon.addEventListener("click", () => {
-	  if (body.classList.contains("dark-version")) {
-		body.classList.remove("dark-version");
-		body.classList.add("light-version");
-		localStorage.setItem("theme", "light");
-	  } else {
-		body.classList.remove("light-version");
-		body.classList.add("dark-version");
-		localStorage.setItem("theme", "dark");
-	  }
-	});
-  </script> -->
-  <!-- <script>
-	document.addEventListener('DOMContentLoaded', function () {
-	  const toggleBtn = document.getElementById('theme-toggle');
-	  const app = document.getElementById('app');
-  
-	  // Load saved theme
-	  const savedTheme = localStorage.getItem('theme');
-	  if (savedTheme === 'light') {
-		app.classList.remove('dark-version');
-		app.classList.add('light-version');
-	  }
-  
-	  toggleBtn.addEventListener('click', () => {
-		const isLight = app.classList.contains('light-version');
-  
-		if (isLight) {
-		  app.classList.remove('light-version');
-		  app.classList.add('dark-version');
-		  localStorage.setItem('theme', 'dark');
-		} else {
-		  app.classList.remove('dark-version');
-		  app.classList.add('light-version');
-		  localStorage.setItem('theme', 'light');
-		}
-	  });
-	});
-  </script> -->
   
   </div>
 </body>

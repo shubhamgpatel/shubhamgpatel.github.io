@@ -1,0 +1,232 @@
+h2 {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'montserratsemibold';
+    font-weight: 400;
+    color: #1a1a1a;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.light-bg {
+    background: #fffaf0 none repeat scroll 0 0;
+}
+
+.dark-bg {
+    background: #fffaf0 none repeat scroll 0 0;
+}
+
+#loading {
+    background: #fffaf0 none repeat scroll 0 0;
+    height: 100%;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+.hidelogo{color:#001219}
+
+.header-top.is-sticky {
+    background: #f4f4f4 none repeat scroll 0 0;
+}
+
+.mainmenu li a,
+.expand-menu-open i {
+    color: #102a43;
+}
+
+/* Background color */
+.bg-color-1 {
+    background: #ffffff none repeat scroll 0 0;
+}
+
+.bg-color-2 {
+    background: #f0f0f0 none repeat scroll 0 0;
+}
+
+.bg-color-3 {
+    background: #f9f5ee none repeat scroll 0 0;
+}
+
+.single-service i {
+    border-color: #2e3a59;
+    color: #003366;
+}
+
+.single-service:hover i {
+    background: #003366 none repeat scroll 0 0;
+    border-color: #003366;
+    color: #ffffff;
+}
+
+.single-service > h5 {
+    color: #1a1a1a;
+}
+
+.single-service > p {
+    color: #2e2e2e;
+}
+
+.single-service {
+    background: #fefaf6 none repeat scroll 0 0;
+}
+
+.white-color {
+    color: #102a43 !important;
+}
+
+.light-color {
+    color: #3b3b3b !important;
+}
+
+.skills-icons span {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    padding: 7px 0 0 0;
+    color: #003366;
+}
+
+p {
+    color: #2e2e2e;
+}
+
+.single-experi .right-text i {
+    color: #003366;
+}
+
+.single-experi .right-text p {
+    color: #3d3d3d;
+}
+
+.contact-area .section-title p {
+    color: #3b3b3b;
+}
+
+.contact-text li span a,
+.contact-text li span {
+    color: #2a2a2a;
+}
+
+.contact-text li span a:hover {
+    color: #003366;
+}
+
+.footer .left p a:hover,
+.social-link li a:hover,
+.contact-text li span a:hover {
+    color: #003366;
+}
+
+.custom-input button.btn {
+    background: #003366 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.custom-input button.btn:hover {
+    background: #1f2937 none repeat scroll 0 0;
+}
+
+.slider-text h1 {
+    color: #1a1a1a;
+    font-size: 44px;
+    line-height: 40px;
+}
+
+.name-email input {
+    border: none;
+    border-bottom: 1px solid #999999;
+    padding: 5px 0;
+}
+
+.name-email input,
+.contact-area textarea {
+    font-weight: 300;
+    line-height: 26px;
+    color: #1a1a1a;
+}
+
+.contact-area input::placeholder,
+.contact-area textarea::placeholder {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    color: #888888;
+}
+
+.mainmenu li a:hover,
+.mainmenu li.active a {
+    color: #204ecf;
+}
+
+.mainmenu li a:after {
+    background: #204ecf none repeat scroll 0 0;
+}
+
+.slider-text > p {
+    color: #2b2b2b;
+}
+
+.single-experi .left-text > p {
+    color: #4d4d4d;
+}
+
+.portfolio-menu ul li {
+    color: #1a1a1a;
+    cursor: pointer;
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.22px;
+    line-height: 28px;
+    padding: 0 12px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.portfolio-menu ul li:hover,
+.portfolio-menu ul li.active {
+    color: #003366;
+}
+
+.portfolio-menu li:after {
+    background: #003366 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 0;
+    right: 0;
+    margin: -1px auto 0 auto;
+}
+
+.contact-text li h4 {
+    color: #1a1a1a;
+}
+
+.contact-text li i {
+    color: #003366;
+}
+.mainmenu-box li a {
+    border-top: 1px solid #133185;
+    display: block;
+    padding: 13px 0;
+}
+
+.bg-charcoal{background-color: #fff;   
+}
+a{
+    color: #133185;
+}
+.mainmenu-box li a:hover, .mainmenu-box li.active a{
+    background-color: #f9f5ee!important;
+}

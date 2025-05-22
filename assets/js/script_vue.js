@@ -10,7 +10,7 @@ $(document).ready(function () {
         props: ['title'],
         template: `
           <div class="section-title text-center mb-60">
-            <h2 class="mb-20 white-color">{{ title }}</h2>
+            <h2 class="mb-20">{{ title }}</h2>
             <div class="horizontal-line">
               <div class="top"></div>
               <div class="bottom"></div>
@@ -46,7 +46,7 @@ $(document).ready(function () {
   
     $.getJSON(url).then(data => {
       new Vue({
-        el: '#app', // Make sure all your Vue elements are inside this container in HTML
+        el: '#shubh', // Make sure all your Vue elements are inside this container in HTML
         data: {
           services: data.services,
           experience: data.experience,
@@ -58,6 +58,25 @@ $(document).ready(function () {
           email: data.email,
           location: data.location,
           contactInfo: data.contactInfo
+        },
+        mounted() {
+          this.$nextTick(() => {
+            $('.expand-menu-open').on("click", function (e) {
+              $('.mainmenu-expand').addClass("slide_right");
+              e.stopPropagation();
+            });
+      
+            $('.close-menu').on('click', function () {
+              $('.mainmenu-expand').removeClass('slide_right');
+            });
+      
+            $(document).on('click', function (e) {
+              var $selectOtherSide = $('.mainmenu-expand,.expand-menu-open');
+              if (!$selectOtherSide.is(e.target) && $selectOtherSide.has(e.target).length === 0) {
+                $('.mainmenu-expand').removeClass("slide_right");
+              }
+            });
+          });
         }
       });
     });

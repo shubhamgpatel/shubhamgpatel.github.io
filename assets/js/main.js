@@ -10,7 +10,7 @@
 		var scroll = $(window).scrollTop();
 		var AESticky = AcSticky;
 		// var jquerydef = shownameclass;
-		if (scroll < 245) {
+		if (scroll < 50) {
 			AESticky.removeClass("is-sticky");
 			//  jquerydef.css('display','none');
 		}
@@ -25,7 +25,7 @@
 		var shownameclass = $('.hidelogo');
 		var scroll = $(window).scrollTop();
 		var jquerydef = shownameclass;
-		if (scroll < 300) {
+		if (scroll < 390) {
 			 jquerydef.css('display','none');
 		}
 		else{
@@ -285,3 +285,27 @@ let customInterval = setInterval(()=>{
 // 	//Preloader
 	
 // });
+document.addEventListener('DOMContentLoaded', () => {
+	const themeLink = document.getElementById('theme-style');
+	const btn = document.getElementById('toggleThemeIcon');
+	const iconLight = document.getElementById('icon-light');
+	const iconDark = document.getElementById('icon-dark');
+
+	if (!themeLink || !btn || !iconLight || !iconDark) return;
+
+	const getTheme = () => localStorage.getItem('theme') || 'light';
+
+	const setTheme = (theme) => {
+	  themeLink.href = `./assets/css/theme-${theme}.css`;
+	  iconLight.style.display = theme === 'dark' ? 'none' : 'inline';
+	  iconDark.style.display = theme === 'dark' ? 'inline' : 'none';
+	  localStorage.setItem('theme', theme);
+	};
+
+	setTheme(getTheme());
+
+	btn.addEventListener('click', () => {
+	  const newTheme = getTheme() === 'light' ? 'dark' : 'light';
+	  setTheme(newTheme);
+	});
+  });
