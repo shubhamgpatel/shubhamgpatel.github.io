@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	if (!themeLink || !btn || !iconLight || !iconDark) return;
 
-	const getTheme = () => localStorage.getItem('theme') || 'light';
+	const getTheme = () => localStorage.getItem('theme') || 'dark';
 
 	const setTheme = (theme) => {
 	  themeLink.href = `./assets/css/theme-${theme}.css`;
